@@ -1,6 +1,6 @@
-def add(int a, int b):
+def add(a,b):
 	return a+b
-def divide(int a, int b):
+def divide(a,b):
 	if b==0:
 		raise ValueError("Cannot divide by zero")
 	else:
